@@ -1,0 +1,217 @@
+digraph "network_diagram - HTTPS" {
+	graph [bgcolor=grey dpi=300 fontcolor=black fontsize=16 label=PcapGraph overlap=scale rankdir=LR size="10, 10"]
+	node [color=" black" fillcolor=yellow fixedsize=true fontcolor=black fontname=Helvetica height=3 shape=circle style=filled width=3]
+	node [shape=doublecircle]
+	node [shape=circle]
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.2.39
+d0.d0.fd.fe.97.a0
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.9f
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+00.50.56.9b.00.00
+DACOLL LIMITED"
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+00.50.56.9b.00.00
+DACOLL LIMITED"
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+00.50.56.9b.00.00
+DACOLL LIMITED"
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	"192.168.1.2
+d0.d0.fd.fe.97.a1
+SmartDrive Systems Inc."
+	dpi=300 engine=circo label="No HTTPS Traffic between nodes!" size="5, 5"
+}

@@ -1,0 +1,128 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 750px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "label": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "shape": "dot", "title": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc."}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.26\nPossibleGateway", "label": "00.50.56.9b.00.26\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.26\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.80\nPossibleGateway", "label": "00.50.56.9b.00.80\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.80\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.39\n00.50.56.9b.00.02\nDACOLL LIMITED", "label": "192.168.2.39\n00.50.56.9b.00.02\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.39\n00.50.56.9b.00.02\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED", "label": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.30\n00.50.56.9b.00.29\nDACOLL LIMITED", "label": "192.168.2.30\n00.50.56.9b.00.29\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.30\n00.50.56.9b.00.29\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.102\n00.50.56.9b.00.70\nDACOLL LIMITED", "label": "192.168.2.102\n00.50.56.9b.00.70\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.102\n00.50.56.9b.00.70\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.3a\nPossibleGateway", "label": "00.50.56.9b.00.3a\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.3a\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.6c\nPossibleGateway", "label": "00.50.56.9b.00.6c\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.6c\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.83\n00.50.56.9b.00.5b\nDACOLL LIMITED", "label": "192.168.2.83\n00.50.56.9b.00.5b\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.83\n00.50.56.9b.00.5b\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.84\n00.50.56.9b.00.5c\nDACOLL LIMITED", "label": "192.168.2.84\n00.50.56.9b.00.5c\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.84\n00.50.56.9b.00.5c\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.06\nPossibleGateway", "label": "00.50.56.9b.00.06\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.06\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc.", "label": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc.", "shape": "dot", "title": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc."}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED", "label": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED", "shape": "dot", "title": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.2\nd0.d0.fd.fe.97.9f\nSmartDrive Systems Inc.", "label": "192.168.1.2\nd0.d0.fd.fe.97.9f\nSmartDrive Systems Inc.", "shape": "dot", "title": "192.168.1.2\nd0.d0.fd.fe.97.9f\nSmartDrive Systems Inc."}, {"color": "yellow", "font": {"color": "white"}, "id": "10.200.150.2\n00.50.56.9b.00.b5\nDACOLL LIMITED", "label": "10.200.150.2\n00.50.56.9b.00.b5\nDACOLL LIMITED", "shape": "dot", "title": "10.200.150.2\n00.50.56.9b.00.b5\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.79\n00.50.56.9b.00.57\nDACOLL LIMITED", "label": "192.168.2.79\n00.50.56.9b.00.57\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.79\n00.50.56.9b.00.57\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.1b\nPossibleGateway", "label": "00.50.56.9b.00.1b\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.1b\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.10\n00.24.e8.55.36.af\nIT R\u0026D Center", "label": "192.168.1.10\n00.24.e8.55.36.af\nIT R\u0026D Center", "shape": "dot", "title": "192.168.1.10\n00.24.e8.55.36.af\nIT R\u0026D Center"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.51\n00.50.56.9b.00.22\nDACOLL LIMITED", "label": "192.168.2.51\n00.50.56.9b.00.22\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.51\n00.50.56.9b.00.22\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.8e\nPossibleGateway", "label": "00.50.56.9b.00.8e\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.8e\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.45\n00.50.56.9b.00.0b\nDACOLL LIMITED", "label": "192.168.2.45\n00.50.56.9b.00.0b\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.45\n00.50.56.9b.00.0b\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.172\n00.50.56.9b.00.bb\nDACOLL LIMITED", "label": "192.168.2.172\n00.50.56.9b.00.bb\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.172\n00.50.56.9b.00.bb\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.120\n00.50.56.9b.00.81\nDACOLL LIMITED", "label": "192.168.2.120\n00.50.56.9b.00.81\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.120\n00.50.56.9b.00.81\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.123\n00.50.56.9b.00.85\nDACOLL LIMITED", "label": "192.168.2.123\n00.50.56.9b.00.85\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.123\n00.50.56.9b.00.85\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.153\n00.50.56.9b.00.a2\nDACOLL LIMITED", "label": "192.168.2.153\n00.50.56.9b.00.a2\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.153\n00.50.56.9b.00.a2\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.81\n00.50.56.9b.00.59\nDACOLL LIMITED", "label": "192.168.2.81\n00.50.56.9b.00.59\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.81\n00.50.56.9b.00.59\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.20\n00.50.56.9b.00.15\nDACOLL LIMITED", "label": "192.168.2.20\n00.50.56.9b.00.15\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.20\n00.50.56.9b.00.15\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.63\n00.50.56.9b.00.3b\nDACOLL LIMITED", "label": "192.168.2.63\n00.50.56.9b.00.3b\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.63\n00.50.56.9b.00.3b\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.82\n00.50.56.9b.00.5a\nDACOLL LIMITED", "label": "192.168.2.82\n00.50.56.9b.00.5a\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.82\n00.50.56.9b.00.5a\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.11\n00.50.56.9b.00.09\nDACOLL LIMITED", "label": "192.168.2.11\n00.50.56.9b.00.09\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.11\n00.50.56.9b.00.09\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.121\n00.50.56.9b.00.82\nDACOLL LIMITED", "label": "192.168.2.121\n00.50.56.9b.00.82\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.121\n00.50.56.9b.00.82\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.51\nPossibleGateway", "label": "00.50.56.9b.00.51\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.51\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.1c\nPossibleGateway", "label": "00.50.56.9b.00.1c\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.1c\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.80\n00.50.56.9b.00.58\nDACOLL LIMITED", "label": "192.168.2.80\n00.50.56.9b.00.58\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.80\n00.50.56.9b.00.58\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.33\n00.50.56.9b.00.01\nDACOLL LIMITED", "label": "192.168.2.33\n00.50.56.9b.00.01\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.33\n00.50.56.9b.00.01\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.100\n00.50.56.9b.00.6d\nDACOLL LIMITED", "label": "192.168.2.100\n00.50.56.9b.00.6d\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.100\n00.50.56.9b.00.6d\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.117\n00.50.56.9b.00.7e\nDACOLL LIMITED", "label": "192.168.2.117\n00.50.56.9b.00.7e\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.117\n00.50.56.9b.00.7e\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.3c\nPossibleGateway", "label": "00.50.56.9b.00.3c\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.3c\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown", "label": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown", "shape": "dot", "title": "192.168.1.255\nff.ff.ff.ff.ff.ff\nUnknown"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.6e\nPossibleGateway", "label": "00.50.56.9b.00.6e\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.6e\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.95\n00.50.56.9b.00.67\nDACOLL LIMITED", "label": "192.168.2.95\n00.50.56.9b.00.67\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.95\n00.50.56.9b.00.67\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.8f\nPossibleGateway", "label": "00.50.56.9b.00.8f\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.8f\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.173\n00.50.56.9b.00.bc\nDACOLL LIMITED", "label": "192.168.2.173\n00.50.56.9b.00.bc\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.173\n00.50.56.9b.00.bc\nDACOLL LIMITED"}, {"color": "yellow", "font": {"color": "white"}, "id": "00.50.56.9b.00.a3\nPossibleGateway", "label": "00.50.56.9b.00.a3\nPossibleGateway", "shape": "dot", "title": "00.50.56.9b.00.a3\nPossibleGateway"}, {"color": "yellow", "font": {"color": "white"}, "id": "192.168.2.145\n00.50.56.9b.00.9a\nDACOLL LIMITED", "label": "192.168.2.145\n00.50.56.9b.00.9a\nDACOLL LIMITED", "shape": "dot", "title": "192.168.2.145\n00.50.56.9b.00.9a\nDACOLL LIMITED"}]);
+        edges = new vis.DataSet([{"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.1, "type": "curvedCW"}, "to": "192.168.2.39\n00.50.56.9b.00.02\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.2, "type": "curvedCW"}, "to": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.3, "type": "curvedCW"}, "to": "192.168.2.30\n00.50.56.9b.00.29\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.4, "type": "curvedCW"}, "to": "192.168.2.102\n00.50.56.9b.00.70\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.5, "type": "curvedCW"}, "to": "192.168.2.83\n00.50.56.9b.00.5b\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.6, "type": "curvedCW"}, "to": "192.168.2.84\n00.50.56.9b.00.5c\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.7, "type": "curvedCW"}, "to": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.9f\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.8, "type": "curvedCW"}, "to": "10.200.150.2\n00.50.56.9b.00.b5\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 0.9, "type": "curvedCW"}, "to": "192.168.2.79\n00.50.56.9b.00.57\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.0, "type": "curvedCW"}, "to": "192.168.2.45\n00.50.56.9b.00.0b\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.1, "type": "curvedCW"}, "to": "192.168.2.172\n00.50.56.9b.00.bb\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED", "smooth": {"roundness": 1.2, "type": "curvedCW"}, "to": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc."}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.3, "type": "curvedCW"}, "to": "192.168.2.123\n00.50.56.9b.00.85\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.4, "type": "curvedCW"}, "to": "192.168.2.153\n00.50.56.9b.00.a2\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.5, "type": "curvedCW"}, "to": "192.168.2.81\n00.50.56.9b.00.59\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.6, "type": "curvedCW"}, "to": "192.168.2.63\n00.50.56.9b.00.3b\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.7, "type": "curvedCW"}, "to": "192.168.2.82\n00.50.56.9b.00.5a\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.8, "type": "curvedCW"}, "to": "192.168.2.11\n00.50.56.9b.00.09\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 1.9, "type": "curvedCW"}, "to": "192.168.2.121\n00.50.56.9b.00.82\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 2.0, "type": "curvedCW"}, "to": "192.168.2.80\n00.50.56.9b.00.58\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 2.1, "type": "curvedCW"}, "to": "192.168.2.33\n00.50.56.9b.00.01\nDACOLL LIMITED"}, {"arrows": "to", "color": "pink", "from": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.", "smooth": {"roundness": 2.2, "type": "curvedCW"}, "to": "192.168.2.173\n00.50.56.9b.00.bc\nDACOLL LIMITED"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

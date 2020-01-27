@@ -1,0 +1,88 @@
+deviceDetails: {
+  "00:50:56:9b:00:00": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:04": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.41",
+    "node": "192.168.2.41\n00.50.56.9b.00.04\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:09": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.14",
+    "node": "192.168.2.14\n00.50.56.9b.00.09\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a9": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.1.14",
+    "node": "192.168.1.14\n00.50.56.9b.00.a9\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:ba": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.171",
+    "node": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "d0:d0:fd:fe:97:a0": {
+    "device_vendor": "SmartDrive Systems Inc.",
+    "ip": "192.168.2.171",
+    "node": "192.168.2.171\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc.",
+    "vendor_address": [
+      "se  CA  94568",
+      "US",
+      "9276 Scranton Road"
+    ]
+  },
+  "d0:d0:fd:fe:97:a1": {
+    "device_vendor": "SmartDrive Systems Inc.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.",
+    "vendor_address": [
+      "se  CA  94568",
+      "US",
+      "9276 Scranton Road"
+    ]
+  },
+  "ff:ff:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.2.255",
+    "node": "192.168.2.255\nff.ff.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  }
+}
