@@ -1,0 +1,916 @@
+deviceDetails: {
+  "00:50:56:9b:00:00": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\n00.50.56.9b.00.00\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:01": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.33",
+    "node": "192.168.2.33\n00.50.56.9b.00.01\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:02": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.39",
+    "node": "192.168.2.39\n00.50.56.9b.00.02\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:04": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.41",
+    "node": "192.168.2.41\n00.50.56.9b.00.04\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:06": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.44",
+    "node": "192.168.2.44\n00.50.56.9b.00.06\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:09": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.11",
+    "node": "192.168.2.11\n00.50.56.9b.00.09\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:0b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.45",
+    "node": "192.168.2.45\n00.50.56.9b.00.0b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:0f": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.48",
+    "node": "192.168.2.48\n00.50.56.9b.00.0f\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:14": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.16",
+    "node": "192.168.2.16\n00.50.56.9b.00.14\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:15": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.20",
+    "node": "192.168.2.20\n00.50.56.9b.00.15\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:1b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.55",
+    "node": "192.168.2.55\n00.50.56.9b.00.1b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:1c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.54",
+    "node": "192.168.2.54\n00.50.56.9b.00.1c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:20": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.47",
+    "node": "192.168.2.47\n00.50.56.9b.00.20\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:22": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.51",
+    "node": "192.168.2.51\n00.50.56.9b.00.22\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:24": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.37",
+    "node": "192.168.2.37\n00.50.56.9b.00.24\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:26": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.36",
+    "node": "192.168.2.36\n00.50.56.9b.00.26\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:27": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.31",
+    "node": "192.168.2.31\n00.50.56.9b.00.27\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:29": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.30",
+    "node": "192.168.2.30\n00.50.56.9b.00.29\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:2c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.26",
+    "node": "192.168.2.26\n00.50.56.9b.00.2c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:31": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.23",
+    "node": "192.168.2.23\n00.50.56.9b.00.31\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:37": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.60",
+    "node": "192.168.2.60\n00.50.56.9b.00.37\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:3a": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.62",
+    "node": "192.168.2.62\n00.50.56.9b.00.3a\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:3b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.63",
+    "node": "192.168.2.63\n00.50.56.9b.00.3b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:3c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.64",
+    "node": "192.168.2.64\n00.50.56.9b.00.3c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:40": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.68",
+    "node": "192.168.2.68\n00.50.56.9b.00.40\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:4e": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.71",
+    "node": "192.168.2.71\n00.50.56.9b.00.4e\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:51": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.75",
+    "node": "192.168.2.75\n00.50.56.9b.00.51\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:52": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.73",
+    "node": "192.168.2.73\n00.50.56.9b.00.52\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:53": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.76",
+    "node": "192.168.2.76\n00.50.56.9b.00.53\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:55": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.78",
+    "node": "192.168.2.78\n00.50.56.9b.00.55\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:57": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.79",
+    "node": "192.168.2.79\n00.50.56.9b.00.57\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:58": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.80",
+    "node": "192.168.2.80\n00.50.56.9b.00.58\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:59": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.81",
+    "node": "192.168.2.81\n00.50.56.9b.00.59\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:5a": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.82",
+    "node": "192.168.2.82\n00.50.56.9b.00.5a\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:5b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.83",
+    "node": "192.168.2.83\n00.50.56.9b.00.5b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:5c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.84",
+    "node": "192.168.2.84\n00.50.56.9b.00.5c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:5d": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.85",
+    "node": "192.168.2.85\n00.50.56.9b.00.5d\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:5e": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.86",
+    "node": "192.168.2.86\n00.50.56.9b.00.5e\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:67": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.95",
+    "node": "192.168.2.95\n00.50.56.9b.00.67\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:6c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.99",
+    "node": "192.168.2.99\n00.50.56.9b.00.6c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:6d": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.100",
+    "node": "192.168.2.100\n00.50.56.9b.00.6d\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:6e": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.101",
+    "node": "192.168.2.101\n00.50.56.9b.00.6e\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:70": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.102",
+    "node": "192.168.2.102\n00.50.56.9b.00.70\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:72": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.105",
+    "node": "192.168.2.105\n00.50.56.9b.00.72\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:75": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.109",
+    "node": "192.168.2.109\n00.50.56.9b.00.75\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:76": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.108",
+    "node": "192.168.2.108\n00.50.56.9b.00.76\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:78": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.111",
+    "node": "192.168.2.111\n00.50.56.9b.00.78\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:7c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.115",
+    "node": "192.168.2.115\n00.50.56.9b.00.7c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:7e": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.117",
+    "node": "192.168.2.117\n00.50.56.9b.00.7e\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:7f": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.118",
+    "node": "192.168.2.118\n00.50.56.9b.00.7f\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:80": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.119",
+    "node": "192.168.2.119\n00.50.56.9b.00.80\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:81": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.120",
+    "node": "192.168.2.120\n00.50.56.9b.00.81\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:82": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.121",
+    "node": "192.168.2.121\n00.50.56.9b.00.82\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:84": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.124",
+    "node": "192.168.2.124\n00.50.56.9b.00.84\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:85": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.123",
+    "node": "192.168.2.123\n00.50.56.9b.00.85\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:86": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.125",
+    "node": "192.168.2.125\n00.50.56.9b.00.86\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:8b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.130",
+    "node": "192.168.2.130\n00.50.56.9b.00.8b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:8d": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.132",
+    "node": "192.168.2.132\n00.50.56.9b.00.8d\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:8e": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.133",
+    "node": "192.168.2.133\n00.50.56.9b.00.8e\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:8f": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.134",
+    "node": "192.168.2.134\n00.50.56.9b.00.8f\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:93": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.138",
+    "node": "192.168.2.138\n00.50.56.9b.00.93\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:95": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.140",
+    "node": "192.168.2.140\n00.50.56.9b.00.95\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:9a": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.145",
+    "node": "192.168.2.145\n00.50.56.9b.00.9a\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:9b": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.146",
+    "node": "192.168.2.146\n00.50.56.9b.00.9b\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:9c": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.147",
+    "node": "192.168.2.147\n00.50.56.9b.00.9c\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a2": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.153",
+    "node": "192.168.2.153\n00.50.56.9b.00.a2\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a3": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.154",
+    "node": "192.168.2.154\n00.50.56.9b.00.a3\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a4": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.155",
+    "node": "192.168.2.155\n00.50.56.9b.00.a4\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a5": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.159",
+    "node": "192.168.2.159\n00.50.56.9b.00.a5\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a7": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.158",
+    "node": "192.168.2.158\n00.50.56.9b.00.a7\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:a9": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.1.14",
+    "node": "192.168.1.14\n00.50.56.9b.00.a9\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:ba": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.171",
+    "node": "192.168.2.171\n00.50.56.9b.00.ba\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:bb": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.172",
+    "node": "192.168.2.172\n00.50.56.9b.00.bb\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "00:50:56:9b:00:bc": {
+    "device_vendor": "DACOLL LIMITED",
+    "ip": "192.168.2.173",
+    "node": "192.168.2.173\n00.50.56.9b.00.bc\nDACOLL LIMITED",
+    "vendor_address": [
+      ".",
+      "50 SOUTH MAIN STREET-#530",
+      "SALT LAKE CITY  UTAH  84144",
+      "US",
+      "00808B     (base 16"
+    ]
+  },
+  "d0:d0:fd:fe:97:a0": {
+    "device_vendor": "SmartDrive Systems Inc.",
+    "ip": "192.168.2.39",
+    "node": "192.168.2.39\nd0.d0.fd.fe.97.a0\nSmartDrive Systems Inc.",
+    "vendor_address": [
+      "se  CA  94568",
+      "US",
+      "9276 Scranton Road"
+    ]
+  },
+  "d0:d0:fd:fe:97:a1": {
+    "device_vendor": "SmartDrive Systems Inc.",
+    "ip": "192.168.1.2",
+    "node": "192.168.1.2\nd0.d0.fd.fe.97.a1\nSmartDrive Systems Inc.",
+    "vendor_address": [
+      "se  CA  94568",
+      "US",
+      "9276 Scranton Road"
+    ]
+  },
+  "ff:ff:ff:ff:ff:ff": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.2.255",
+    "node": "192.168.2.255\nff.ff.ff.ff.ff.ff\nUnknown",
+    "vendor_address": "Unknown"
+  }
+}
